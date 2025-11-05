@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KitchenLink - Gestión de Restaurantes</title> <link rel="stylesheet" href="templatemo-prism-flux.css">
+</head>
+<body>
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-prism">
+                <div class="prism-face"></div>
+                <div class="prism-face"></div>
+                <div class="prism-face"></div>
+            </div>
+            <div style="color: var(--accent-purple); font-size: 18px; text-transform: uppercase; letter-spacing: 3px;">Cargando...</div>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <div class="logo-prism">
+                        <div class="prism-shape"></div>
+                    </div>
+                </div>
+                <span class="logo-text">
+                    <span class="prism">Kitchen</span>
+                    <span class="flux">Link</span>
+                </span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Acerca de</a></li>
+                <li><a href="#stats" class="nav-link">Estadísticas</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                </div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-btn" id="prevBtn">‹</button>
+                <button class="carousel-btn" id="nextBtn">›</button>
+            </div>
+            
+            <div class="carousel-indicators" id="indicators">
+                </div>
+        </div>
+    </section>
+
+    <section class="philosophy-section" id="about">
+        <div class="philosophy-container">
+            <div class="prism-line"></div>
+            
+            <h2 class="philosophy-headline">
+                Optimizando la Gestión<br>de Restaurantes
+            </h2>
+            
+            <p class="philosophy-subheading">
+                KitchenLink es una solución de software integral diseñada para optimizar cada aspecto
+                de la operación de un restaurante, desde la toma de pedidos y la cocina hasta la
+                administración y el cierre de caja.
+            </p>
+            
+            <div class="philosophy-pillars">
+                <div class="pillar">
+                    <div class="pillar-icon">⚡</div>
+                    <h3 class="pillar-title">Eficiencia</h3>
+                    <p class="pillar-description">
+                        Interfaces intuitivas para meseros, cocina y barra que se comunican en tiempo real, 
+                        reduciendo errores y agilizando el servicio.
+                    </p>
+                </div>
+                
+                <div class="pillar">
+                    <div class="pillar-icon">📊</div>
+                    <h3 class="pillar-title">Control</h3>
+                    <p class="pillar-description">
+                        Módulo de gerencia con reportes detallados, gestión de usuarios y un TPV integrado
+                        para un control financiero y operativo completo.
+                    </p>
+                </div>
+                
+                <div class="pillar">
+                    <div class="pillar-icon">📱</div>
+                    <h3 class="pillar-title">Usabilidad</h3>
+                    <p class="pillar-description">
+                        Diseño centrado en el usuario que facilita la gestión de reservaciones, 
+                        listas de espera y asignación de mesas por parte de la hostess.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="philosophy-particles" id="particles">
+                </div>
+        </div>
+    </section>
+
+    <section class="stats-section" id="stats">
+        <div class="section-header">
+            <h2 class="section-title">Métricas del Proyecto</h2>
+            <p class="section-subtitle">Un vistazo al desarrollo y alcance de la aplicación KitchenLink</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">🚀</div>
+                <div class="stat-number" data-target="7">0</div> <div class="stat-label">Módulos Desarrollados</div>
+                <p class="stat-description">Interfaces especializadas para cada rol: Mesero, Hostess, Cocina, Barra, Caja, Gerente y Login.</p>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">⚡</div>
+                <div class="stat-number" data-target="450">0</div> <div class="stat-label">Horas de Desarrollo</div>
+                <p class="stat-description">Invirtiendo el tiempo necesario para asegurar un código limpio, eficiente y escalable.</p>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">💻</div>
+                <div class="stat-number" data-target="15000">0</div> <div class="stat-label">Líneas de Código</div>
+                <p class="stat-description">Construyendo una aplicación robusta y llena de funcionalidades con un stack MERN moderno.</p>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">💎</div>
+                <div class="stat-number" data-target="12">0</div> <div class="stat-label">Tecnologías Usadas</div>
+                <p class="stat-description">Combinando las mejores herramientas de frontend, backend y bases de datos para un rendimiento óptimo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <div class="skills-container">
+            <div class="section-header">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <p class="section-subtitle">Las tecnologías y frameworks usados para construir KitchenLink</p>
+            </div>
+            
+            <div class="skill-categories">
+                <div class="category-tab active" data-category="all">Todas</div>
+                <div class="category-tab" data-category="frontend">Frontend</div>
+                <div class="category-tab" data-category="backend">Backend</div>
+                <div class="category-tab" data-category="cloud">Herramientas</div> </div>
+
+            <div class="skills-hexagon-grid" id="skillsGrid">
+                </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">Ponerse en Contacto</h2>
+            <p class="section-subtitle">¿Interesado en mi trabajo o en el proyecto? Hablemos.</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <h4>Ubicación</h4>
+                        <p>Saltillo, Coahuila, México</p>
+                    </div>
+                </div>
+                
+                <a href="mailto:tu.email@dominio.com" class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div class="info-text">
+                        <h4>Email</h4>
+                        <p>tu.email@dominio.com</p>
+                    </div>
+                </a>
+                
+                <a href="tel:+528441234567" class="info-item">
+                    <div class="info-icon">📱</div>
+                    <div class="info-text">
+                        <h4>Teléfono</h4>
+                        <p>+52 (844) 123-4567</p>
+                    </div>
+                </a>
+                
+                <a href="#" target="_blank" class="info-item"> <div class="info-icon">📅</div>
+                    <div class="info-text">
+                        <h4>LinkedIn</h4>
+                        <p>Ve mi perfil profesional</p>
+                    </div>
+                </a>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <div class="logo-prism">
+                            <div class="prism-shape"></div>
+                        </div>
+                    </div>
+                    <span class="logo-text">
+                        <span class="prism">Kitchen</span>
+                        <span class="flux">Link</span>
+                    </span>
+                </div>
+                <p class="footer-description">
+                    Solución integral para la gestión de restaurantes.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon">f</a>
+                    <a href="#" class="social-icon">t</a>
+                    <a href="#" class="social-icon">in</a>
+                    <a href="#" class="social-icon">ig</a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="copyright">
+                © 2025 KitchenLink. Todos los derechos reservados.
+            </div>
+            <div class="footer-credits">
+                Designed by <a href="https://templatemo.com" rel="nofollow" target="_blank">TemplateMo</a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <div class="modal-overlay" id="portfolioModal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            
+            <div class="modal-video-container" id="modalVideoContainer">
+                </div>
+            
+            <h2 class="modal-title" id="modalTitle">Título del Proyecto</h2>
+            <p class="modal-description" id="modalDescription">
+                Descripción del proyecto...
+            </p>
+            
+            <div class="modal-tech" id="modalTech">
+                </div>
+        </div>
+    </div>
+    <script src="templatemo-prism-scripts.js"></script>
+
+</body>
+</html>
